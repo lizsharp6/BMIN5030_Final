@@ -1,7 +1,7 @@
 ---
-title: "Your Title"
+title: "Analysis of pre-term OPE exposure and Cognitive Scores in Children"
 subtitle: "BMIN5030 Final Project"
-author: "FirstName LastName"
+author: "Elizabeth Sharp"
 format: html
 editor: visual
 number-sections: true
@@ -14,7 +14,9 @@ Use this template to complete your project throughout the course. Your Final Pro
 
 ## Overview {#sec-overview}
 
-Give a brief a description of your project and its goal(s), what data you are using to complete it, and what two faculty/staff in different fields you have spoken to about your project with a brief summary of what you learned from each person. Include a link to your final project GitHub repository.
+Give a brief a description of your project and its goal(s), what data you are using to complete it, and what two faculty/staff in different fields you have spoken to about your project with a brief summary of what you learned from each person. Include a link to your final project GitHub repository:
+
+This project will investigate the association between prenatal organophosphate ester (OPE) exposure and cognitive and psychomotor development in children during the first three years of life. Using HOME Study data, I will examine four maternal urinary OPE metabolites measured at 16 and 26 weeks of pregnancy in relation to children's Mental Development Index (MDI) and Psychomotor Development Index (PDI) scores at 12, 24, and 36 months. Discussions with Dr. Aimin Chen and Dr. Jagadeesh Puvvula highlighted the research gap in understanding prenatal OPE exposure and early childhood cognition, as well as the importance of carefully characterizing exposure distributions and exploring their potential environmental and social implications.
 
 ## Introduction {#sec-introduction}
 
@@ -22,9 +24,15 @@ Describe the problem addressed, its significance, and some background to motivat
 
 Explain why your problem is interdisciplinary, what fields can contribute to its understanding, and incorporate background related to what you learned from meeting with faculty/staff.
 
+OPEs are chemicals commonly used as flame retardants and plasticizers in consumer products, furniture, building materials, and other household items. As the use of OPEs has increased to replace certain older flame retardants, concerns have emerged regarding their potential effects on human health, particularly during sensitive periods of early fetal/child development. Pregnant people may be exposed to OPEs through several routes of exposure, and studies have detected OPE metabolites in human urine, demonstrating their widespread exposure. Previous epidemiological research has investigated associations between prenatal OPE exposure and children's neurodevelopment, with some studies reporting associations between specific OPE metabolites and cognitive or motor outcomes, however, findings have been inconsistent. Because early childhood is a critical period for brain development, understanding whether prenatal exposure to these chemicals is associated with cognitive and psychomotor development is important for identifying potentially modifiable environmental influences on child health.
+
+This research question is interdisciplinary because understanding the relationship between prenatal chemical exposure and childhood neurodevelopment requires perspectives from environmental epidemiology, exposure science, developmental psychology, biostatistics, and public health. Environmental epidemiology provides methods for investigating relationships between chemical exposures and health outcomes in human populations, while exposure science and analytical chemistry contribute to the measurement and interpretation of urinary OPE metabolites. Developmental psychology and pediatric research provide expertise in assessing cognitive and psychomotor development using standardized tools such as the Bayley Scales of Infant and Toddler Development. Biostatistics contributes methods for evaluating exposure-outcome associations while accounting for potential confounding factors. Discussions with faculty and staff, such as Drs Aimin Chen and Jagadeesh Puvvula, further informed this project by providing perspectives on environmental epidemiology and exposure modeling. These interdisciplinary perspectives help connect prenatal environmental exposures with children's developmental outcomes and the broader public health implications of reducing potentially harmful chemical exposures.
+
 ## Methods {#sec-methods}
 
 Describe the data used and general methodological approach used to address the problem described in the @sec-introduction. Subsequently, incorporate full R code necessary to retrieve and clean data, and perform analysis. Be sure to include a description of code so that others (including your future self) can understand what you are doing and why.
+
+My current plan is to provide data cleaning methods on how I get to the final analytic population, box plots of each OPEs distribution, provide preliminary linear models, and eventually produce linear mixed models since there are repeated outcome measures.
 
 ## Results {#sec-results}
 
